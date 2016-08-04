@@ -164,7 +164,7 @@ class ObjectAPI(object):
         self._provenance = None
         self._data = None
         # Init stats
-        self._stats = g_stats
+        self._stats = None #g_stats
         # Init the caching object. Pass in whether the object is
         # publically available (which can determine whether it is cached)
         if local_workspace:
